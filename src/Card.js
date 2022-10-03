@@ -1,8 +1,9 @@
+import iphone_img1 from './iphone_img1.jpg'
 function Card({product,addCart,CartItems}){
     return <div className='col-lg-4 border p-3 mt-3'>
               <div className='row'>
                 <div  className='col-lg-12'>
-                  <img className="fluid " src="https://picsum.photos/200/150"/>
+                  <img className="fluid " src={product.image} width="250px" height="150px"/>
                 </div>
                 <div className='col-lg-12'>
                   <h3>{product.name}</h3>
