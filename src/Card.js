@@ -3,7 +3,7 @@ function Card({product,addCart,CartItems}){
     return <div className='col-lg-4 border p-3 mt-3'>
               <div className='row'>
                 <div  className='col-lg-12'>
-                  <img className="fluid " src={product.image} width="250px" height="150px"/>
+                  <img className="fluid " src={product.image} width="230px" height="150px"/>
                 </div>
                 <div className='col-lg-12'>
                   <h3>{product.name}</h3>
