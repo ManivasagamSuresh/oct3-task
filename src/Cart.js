@@ -20,7 +20,7 @@ function Cart({ CartItems, removeCart,NumOfItems,addItems,removeItems }) {
                                 
                                     addItems(item)}}>+</button>
                                 <span>{item.quantity}</span>
-                                <button onClick={()=>{
+                                <button className="me-3" onClick={()=>{
                                     removeItems(item)}}>-</button>
                                 </span>
                             <span onClick={() => {
